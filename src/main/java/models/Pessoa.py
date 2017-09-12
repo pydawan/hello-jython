@@ -20,7 +20,7 @@ if __name__ == '__main__':
     print path
     env = Environment(
         autoescape=True, 
-        loader=FileSystemLoader('/home/thiago/workspace/jython-test/src/app/templates')
+        loader=FileSystemLoader('/home/thiago/workspace/hello-jython/src/app/templates')
     )    
     template = env.get_template('base.html')
     print template.render(message='Java and Python Itegration by Jython!')
